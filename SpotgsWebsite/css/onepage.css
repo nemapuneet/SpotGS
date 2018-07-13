@@ -1,0 +1,555 @@
+body{
+	font-family: 'Saira Condensed', sans-serif;
+}
+ {box-sizing:border-box}
+
+
+html,body {
+  margin: 0;
+    padding: 0;
+}
+.slider {
+  width:100%;
+  margin:0;
+  
+}
+
+.slider-wrapper {
+  width: 100%;
+  height: 670px;
+  position: relative;
+}
+
+.slide {
+  float: left;
+  position: absolute;
+  width: 100%;
+  height: 101%;
+  opacity: 0;
+ margin: 0;
+ padding: 0;
+  transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+  opacity: 1;
+}
+.getithere a{
+  position: absolute;
+  margin-top:550px;
+  text-align: center;
+  z-index: 10;
+  margin-left: 600px;
+
+}
+
+.getithere a :hover {
+  box-shadow: inset 400px 0 0 0 #f1d204;
+  color: #fff;
+}
+
+
+
+a,a:hover{text-decoration: none;}
+header{
+  padding:20px 0;
+  position:absolute;
+  width: 100%;
+    margin-top: 0px;
+  background: #000;
+  opacity: 0.7;
+  z-index: 10;
+  position: fixed;
+
+}
+.headbody{
+  padding: 0;
+
+
+}
+.navigation
+{ 
+  float: right;
+
+  }
+.navigation ul{
+  padding: 0;
+}
+.navigation ul li{
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+.navigation ul li a{
+  padding: 30px 10px;
+  font-size: 25px;
+  color: #fff;
+  transition: all .3s ease-in-out;
+  margin: 0;
+}
+.navigation ul li a:hover{
+  color: #000;
+  background: #f1d204;
+}
+
+.swiper-container {
+ width: 100%; 
+      height: 500px;
+}  
+
+
+.howitworks{
+  background: #fff;
+  padding: 20px;
+}
+.worksimage{
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.worksimage img {
+  width: 95%;
+  height: 400px;
+}
+.worksheading h1{
+  text-align: center;
+  padding: 40px 0 0;
+  font-size: 55px;
+  
+}
+.dot{
+  color: #f1d204;
+  font-weight: 600;
+}
+
+.workstext p{
+  margin-top: 20px;
+  padding: 90px 0 0;
+  font-size: 20px;
+  text-align: center; 
+}
+.abouthead {
+  padding-top: 50px;
+  text-align: center;
+}
+.abouthead h1{
+text-align: center;
+font-size: 55px;
+}
+.videoar{
+  text-align: center;
+  padding: 40px 0;
+}
+
+.features{
+  background: url(../images/images1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.features-body{
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.features-body h1{
+  color: #fff;
+  font-size: 55px;
+  text-align: center;
+  padding:  40px 20px;
+}
+.icon-div i{
+  font-size: 90px;
+  color: #fff;
+  padding:50px 50px;
+  margin: 50px 50px;
+ 
+  border-radius: 50%;
+  transition: all .3s ease-in-out;
+  display: inline-block;
+  background-color: #f1d204;
+}
+.icon-div i:hover{
+  color: #f1d204;
+  background-color: #fff;
+
+}
+.features-text h3 {
+  color: #fff;
+  padding: 10px 75px;
+
+}
+.features-text h2 {
+  display: inline-block;
+  color: #fff;
+  padding: 5px 75px;
+
+}
+
+.details{
+  background: url(../images/1.jpg);
+}
+.details-head{
+  margin-top: 40px;
+  padding: 10px;
+}
+.feedbackbody{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.details-head h1{
+  color: #f1d204;
+}
+.detail-button button{
+  color: #fff;
+    background: #f1d204;
+    border: none;
+    padding: 8px 15px;
+    margin-bottom: 50px;
+
+}
+.detail-button button:hover{
+  color: #f1d204;
+  background: #fff;
+  border: solid 1px #f1d204;
+}
+
+
+
+.dbanner{
+  background: url(../images/images.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.dot{
+  color: #f1d204;
+  font-weight: 600;
+}
+.dbody{ 
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+.dimage{
+  width: 40%;
+}
+.dimage img{
+  width: 40%;
+  margin-top: 140px;
+  margin-left: 220px;
+}
+.dtext{
+  width: 60%;
+  margin: 150px 0;
+  display: inline-block;
+}
+.dtext h1{
+  color: #fff;
+}
+.form-control{
+  width: 60%;
+  box-shadow: none;
+  border-radius: 0px;
+  border: 1px solid #f1d204;
+}
+.btn{
+ border-radius: 0px;
+ color: #fff;
+ background: #f1d204;
+  transition: all .3s ease-in-out;
+
+}
+.btn:hover{
+  color: #f1d204;
+  background: #fff;
+}
+.team-head h1{
+  font-size: 55px;
+  text-align: center;
+  padding: 60px;
+}
+.team-member{
+  padding-bottom: 0px;
+  position: relative;
+  width: 50%;
+  text-align: center;
+}
+.team-member img{
+  height: 260px;
+  width:  260px;
+  border-radius: 50%;
+  border: solid 10px #f1d204;
+
+}
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right:0;
+  background-color: #000;
+  opacity: 0.7;
+  overflow: hidden;
+  width: 260px;
+  height:0px;
+  border-radius: 50%;
+  transition: .5s ease;
+}
+
+.team-member:hover .overlay {
+  bottom: 0;
+  height: 100%;
+  border: solid 10px #f1d204;
+}
+.feature-text p:hover .overlay {
+
+}
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  padding: 0 10px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text i{
+  padding: 0 10px;
+}
+.team-name{
+
+}
+
+.team-name h3{
+  color: #f1d204;
+  padding: 0 65px 70px;
+
+}
+
+.footer{
+   color: #f1d204;  
+   background: #000;
+}
+.footer-main h4{
+display: inline-block;
+}
+.footer-body1{
+ text-align: left;
+}
+
+
+
+.footer-end{
+  text-align: center;
+  font-weight: 600;
+}
+
+.smallview{
+  display: none;
+}
+
+
+
+@media only screen and (max-width: 767px){
+.slider {
+  width:100%;
+  margin:0;
+  
+}
+.headbody{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.slider-wrapper {
+  width: 100%;
+  height: 670px;
+  position: relative;
+}
+
+.slide {
+  float: left;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+ margin: 0;
+ padding: 0;
+  transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+  opacity: 1;
+}
+
+
+
+.features{
+  background: url(../images/images1.jpg);
+  background-attachment: fixed;
+  
+}
+.features-body{
+  margin-top: 20px;
+  padding: 0;
+  margin-bottom: 30px;
+
+}
+.features-body h1{
+  color: #fff;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 40px;
+  padding-left: 0px;
+}
+.icon-div i{
+  font-size: 60px;
+  color: #fff;
+ padding-left: 0px;
+  border-radius: 50%;
+  transition: all .3s ease-in-out;
+  display: inline-block;
+  background-color: #f1d204;
+}
+.icon-div i:hover{
+  color: #f1d204;
+  background-color: #fff;
+
+}
+.features-text h3 {
+  color: #fff;
+  padding: 10px;
+
+}
+.features-text h2 {
+  display: inline-block;
+  color: #fff;
+  padding: 5px 10px;
+
+}
+
+
+
+  .navigation ul{
+  display: none;}
+  header{
+  padding:0;
+  width: 100%;
+    margin-top: 0px;
+  background: #000;
+  opacity: 0.7;
+  z-index: 10;
+  position: fixed;
+
+}
+
+
+  .smallview {
+  display: inline-block;
+  width: 15px;
+  float: right;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-right: 25px;
+   }
+ .smallview img{
+  float: right;
+  margin-bottom: 20px;
+ }
+.navigation ul{
+  padding: 0;
+  position: absolute;
+  top: 65px;
+  right: 0px;
+  z-index:10;
+  width: 100%;
+  background: #fff;
+}
+.navigation ul li a{
+  color: #000;
+  padding: 10px 15px;
+  display: block;
+  border-bottom: 1px solid;
+  width: 100%;
+
+}
+
+
+.navigation ul li {
+    display: inline-block;
+    width: 100%;
+}
+
+.navigation ul li last-child {
+  border-bottom: none;
+ }
+
+.videoar{
+  text-align: center;
+ 
+}
+.form-control{
+  width: 100%;
+  box-shadow: none;
+  border-radius: 0px;
+  border: 1px solid #f1d204;
+}
+.videoar video {
+   width:85%;
+ }
+ .icon-div{
+  padding: 0 20px;
+ }
+.icon-div i{
+  font-size: 60px;
+  color: #fff;
+  padding:40px 40px;
+
+ 
+  border-radius: 50%;
+  transition: all .3s ease-in-out;
+  display: inline-block;
+  background-color: #f1d204;
+}
+.container{
+  margin: 0;
+  padding: 0px;
+}
+.row{
+  margin: 0;
+  padding: 0;
+}
+
+
+.dbanner{
+  background: url(../images/images.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.dot{
+  color: #f1d204;
+  
+  
+}
+.dbody{ 
+  width: 100%;
+  margin: 0;
+}
+.dimage{
+  text-align: center;
+  width: 35%;
+}
+.dimage img{
+  width: 70%;
+  margin-top: 140px;
+}
+.dtext{
+  width: 60%;
+  margin: 150px 0;
+  display: inline-block;
+}
+.team-head h1{
+  font-size: 55px;
+}
+}
